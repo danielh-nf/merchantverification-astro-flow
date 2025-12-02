@@ -1,17 +1,17 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
-  "name": "apple-merchant-verification-beta",
+  "name": "apple-merchant-verification",
   "compatibility_date": "2025-10-22",
   "assets": {
     "directory": "./assets"
   },
   "routes": [
     {
-      "pattern": "beta-secure.astro-flow.net/.well-known/apple-developer-merchantid-domain-association.txt",
+      "pattern": "secure.astro-flow.net/.well-known/apple-developer-merchantid-domain-association.txt",
       "zone_name": "astro-flow.net"
     },
     {
-      "pattern": "beta-secure.asklunara.com/.well-known/apple-developer-merchantid-domain-association.txt",
+      "pattern": "secure.asklunara.com/.well-known/apple-developer-merchantid-domain-association.txt",
       "zone_name": "asklunara.com"
     }
   ]

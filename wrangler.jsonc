@@ -5,6 +5,7 @@
   "assets": {
     "directory": "./assets"
   },
+  
   "routes": [
     {
       "pattern": "beta-secure.astro-flow.net/.well-known/apple-developer-merchantid-domain-association.txt",

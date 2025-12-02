@@ -11,10 +11,6 @@
       "zone_name": "astro-flow.net"
     },
     {
-      "pattern": "payment-beta.astro-flow.net/.well-known/apple-developer-merchantid-domain-association.txt",
-      "zone_name": "astro-flow.net"
-    },
-    {
       "pattern": "beta-secure.asklunara.net/.well-known/apple-developer-merchantid-domain-association.txt",
       "zone_name": "asklunara.net"
     }
